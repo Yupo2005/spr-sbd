@@ -1,5 +1,5 @@
 import { przerobione } from "./Tescik"
-import { questions } from "./pytania_inf03_sql"
+import { questions } from "./pytania_inf02"
 
 let pytania: any = []
 

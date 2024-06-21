@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import { Box, Button, Card, CardContent, Checkbox, Typography } from '@mui/material';
-import { questions } from './pytania_inf03_sql';
+import { questions } from './pytania_inf02';
 import Answers from './Answers';
 import { getProgressFromStorage, loadRandomQuestion } from './utils';
 import { ProgressStatus, Question } from './types';
