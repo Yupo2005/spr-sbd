@@ -2,9 +2,9 @@ import './App.css';
 import { useState } from 'react';
 import { Box, Button, Card, CardContent, Checkbox, Typography } from '@mui/material';
 import { questions } from './pytania_inf02';
-import Answers from './Answers';
-import { getProgressFromStorage, loadRandomQuestion } from './utils';
-import { ProgressStatus, Question } from './types';
+import Answers from '../Answers';
+import { getProgressFromStorage, loadRandomQuestion } from '../utils';
+import { ProgressStatus, Question } from '../types';
 
 let progress: ProgressStatus = getProgressFromStorage()
 
@@ -107,3 +107,4 @@ export default function Tescik() {
     </Box>
   );
 };
+//z

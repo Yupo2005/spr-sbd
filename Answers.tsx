@@ -1,5 +1,5 @@
-import Answer from './pytanie';
-import { Question } from './types';
+import Answer from '../pytanie';
+import { Question } from '../types';
 
 export default function Answers({selectedOption, currentQuestion, handleOptionClick }: {currentQuestion: Question, selectedOption:string, handleOptionClick: (c: string) => any }) {
     return (
@@ -35,3 +35,4 @@ export default function Answers({selectedOption, currentQuestion, handleOptionCl
         </>
     )
 }
+//z

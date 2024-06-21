@@ -2,10 +2,9 @@ import './App.css';
 import { useState } from 'react';
 import { Box, Button, Card, CardContent, Checkbox, Typography } from '@mui/material';
 import { questions } from './pytania_inf02';
-import Answers from './Answers';
-import { getProgressFromStorage, loadRandomQuestion } from './utils';
-import { ProgressStatus, Question } from './types';
-import React from 'react';
+import Answers from '../Answers';
+import { getProgressFromStorage, loadRandomQuestion } from '../utils';
+import { ProgressStatus, Question } from '../types';
 
 let progress: ProgressStatus = getProgressFromStorage()
 
@@ -89,7 +88,7 @@ export default function Tescik() {
             <Button sx={{ m: 2 }} variant="contained" onClick={() => { hardReset(false) }}> Resetuj procenty</Button>
             <a>{`Procent poprawnych odpowiedzi: ${iloscUdzielonych == 0 ? 0 : ((iloscPoprawnych / iloscUdzielonych) * 100).toFixed(1)}%`}</a>
             {przerobione.length > 0 ? (<><Typography>{`Przerobione pytania: ${przerobione.length}`}</Typography>
-              <Typography>{`Pozostalo do przerobienia ${294 - przerobione.length}`}</Typography></>) : <></>}
+              <Typography>{`Pozostalo do przerobienia ${2227 - przerobione.length}`}</Typography></>) : <></>}
             <br />
             <Box sx={{ p: 2, backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1))' }}>
               <Typography variant="h5" sx={{ mb: 2 }}>
@@ -108,3 +107,4 @@ export default function Tescik() {
     </Box>
   );
 };
+//z

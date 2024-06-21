@@ -21,3 +21,4 @@ export default function Answer({option, selectedOption, content, correctAnswer, 
         <Typography variant="body1">{content}</Typography>
     </Paper>
 }
+//z

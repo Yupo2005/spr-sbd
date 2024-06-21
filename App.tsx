@@ -1,6 +1,6 @@
 import { Routes, Route, HashRouter } from "react-router-dom";
-import Tescik from "./Tescik"
-import NewBar from "./newBar";
+import Tescik from "../Tescik"
+import NewBar from "../newBar";
 import Dzisiejsze from "./Dzisiejsze";
 import ZadaniaComponent from "./sqlMatura";
 
@@ -23,3 +23,4 @@ export default function App() {
       </div>
   )
 }
+//z

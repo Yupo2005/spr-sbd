@@ -1,4 +1,4 @@
-import { przerobione } from "./Tescik"
+import { przerobione } from "../Tescik"
 import { questions } from "./pytania_inf02"
 
 let pytania: any = []
@@ -42,3 +42,4 @@ export function loadRandomQuestion() {
     }
     return pytania[randomIndex];
 };
+//z
